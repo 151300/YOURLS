@@ -43,7 +43,7 @@ define( 'YOURLS_SITE', 'https://your-own-domain-here.com' );
  ** Change this setting to use a translation file for your language, instead of the default English.
  ** That translation file (a .mo file) must be installed in the user/language directory.
  ** See https://yourls.org/translations for more information */
-define( 'YOURLS_LANG', 'zh_CN' ); 
+define('YOURLS_LANG','zh_CN');
 
 /** Allow multiple short URLs for a same long URL
  ** Set to true to have only one pair of shortURL/longURL (default YOURLS behavior)
